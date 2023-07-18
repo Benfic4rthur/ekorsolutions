@@ -19,13 +19,13 @@ export const Image = ({ ...rest }) => (
 );
 
 export const ContainerInfos = ({ children, ...rest }) => (
-  <h3 className='text-center flex gap- flex-col ' {...rest}>
+  <div className='text-center flex  flex-col' {...rest}>
     {children}
-  </h3>
+  </div>
 );
 
 export const Title = ({ children, ...rest }) => (
-  <h3 className='capitalize text-slate-50 font-medium text-xl whitespace-nowrap overflow-scroll' {...rest}>
+  <h3 className='capitalize text-slate-50 font-medium text-xl whitespace-nowrap' {...rest}>
     {children}
   </h3>
 );

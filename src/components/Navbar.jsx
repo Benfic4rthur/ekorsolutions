@@ -1,4 +1,4 @@
-import logo from "../../public/icone.png";
+import logo from '../../public/icone.png';
 export default function Navbar() {
   return (
     <>
@@ -6,9 +6,10 @@ export default function Navbar() {
         <header className="flex bg-[#353E69] items-center justify-between p-5 h-[60px] drop-shadow-lg w-2/4 fixed top-2 rounded-2xl ">
           <a href="/">
             <img src={logo} className="rounded-xl w-8" alt="Logo" />
+
           </a>
           <nav>
-            <ul className="list-none flex gap-[min(4rem_,_4vw)]">
+            <ul className='list-none flex gap-[min(4rem_,_4vw)]'>
               <li>Inicio</li>
               <li>Produtos</li>
               <li>Serviços</li>
