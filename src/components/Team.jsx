@@ -1,9 +1,9 @@
 import arthur from '../assets/arthur.jpg';
 import elias from '../assets/elias.jpg';
-import gabriel from '../assets/gabriel.jpeg';
+import gabriel from '../assets/gabriel.jpg';
 import joao from '../assets/joao.jpg';
 import natacha from '../assets/natacha.jpg';
-import nilson from '../assets/nilson.jpeg';
+import nilson from '../assets/nilson.jpg';
 import { Card } from './TeamCard/Card';
 
 export function Team() {
