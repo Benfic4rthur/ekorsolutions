@@ -16,7 +16,7 @@ export default function Navbar() {
               <li className='cursor-pointer hover:translate-y-1 duration-300'>Inicio</li>
               <li className='cursor-pointer hover:translate-y-1 duration-300'>Produtos</li>
               <li className='cursor-pointer hover:translate-y-1 duration-300'>Serviços</li>
-              <li className='cursor-pointer hover:translate-y-1 duration-3300'>Contato</li>
+              <li className='cursor-pointer hover:translate-y-1 duration-300'>Contato</li>
             </ul>
           </nav>
         </header>
