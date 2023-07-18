@@ -2,6 +2,7 @@ import Footer from './components/Footer';
 import Introduction from './components/Introduction';
 import Navbar from './components/Navbar';
 import Products from './components/Products';
+import Services from './components/Services';
 import { Team } from './components/Team';
 
 // #353E69
@@ -16,6 +17,7 @@ export default function App() {
         <section className=' h-full text-gray-950 text-2xl w-full xl:container m-auto'>
           <Introduction />
           <Products />
+          <Services />
           <Team />
         </section>
         <Footer />
