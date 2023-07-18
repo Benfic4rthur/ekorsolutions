@@ -1,10 +1,3 @@
-import Arthur from "./Arthur";
-import Elias from "./Elias";
-import Gabriel from "./Gabriel";
-import Joao from "./Joao";
-import Natacha from "./Natacha";
-import Nilson from "./Nilson";
-
 import arthur from "../assets/arthur.jpg";
 import elias from "../assets/elias.jpg";
 import gabriel from "../assets/gabriel.jpeg";
