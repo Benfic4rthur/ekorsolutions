@@ -1,7 +1,7 @@
 export default function Section() {
   return (
     <>
-      <div>Sistemas de agendamentos online</div>
+      <p className="font-normal text-base">Sistemas de agendamentos online</p>
     </>
   );
 }
