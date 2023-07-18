@@ -2,7 +2,7 @@ import logo from '../../public/icone.png';
 export default function Navbar() {
   return (
     <>
-      <div className='flex justify-center '>
+      <div className='flex justify-center z-10'>
         <header className='flex bg-[#353E69] items-center justify-between p-5 h-[60px] drop-shadow-lg w-2/4 fixed top-2 rounded-2xl '>
           <a href='/'>
             <img
