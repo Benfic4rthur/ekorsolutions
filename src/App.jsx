@@ -14,7 +14,6 @@ export default function App() {
       <div className="bg-[#BEC9F7] text-gray-50 min-h-screen h-full grid grid-rows-layout grid-cols-1">
         <Navbar />
         <section className=" h-full text-gray-950 text-2xl w-full xl:container m-auto">
-          <h1 className="text-5xl">hello world</h1>
           <Introduction />
           <Products />
           <Team />
