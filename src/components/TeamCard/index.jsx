@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export const Container = ({ children, ...rest }) => (
   <div
     className='h-72 w-56 flex-shrink-0 rounded-md bg-black/40 py-6 flex gap-4 flex-col items-center'
