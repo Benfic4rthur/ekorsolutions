@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { TeamCard } from './index';
 
 export const Card = ({ src = '', Name, Subtitle }) => (
