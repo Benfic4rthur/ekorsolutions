@@ -11,7 +11,7 @@ export default function Section() {
 
   return (
     <>
-      <div className="font-normal text-base text-center" style={divStyle}>
+      <div className="font-normal text-base text-center mt-10" style={divStyle}>
         <h1 className="text-3xl font-bold">Ekor solutions</h1>
         <p>
           Sistemas de agendamentos, financeiro <br />
