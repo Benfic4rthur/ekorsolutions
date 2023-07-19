@@ -23,7 +23,7 @@ if (currentHour >= 0 && currentHour < 12) {
 
 export function Navbar() {
   return (
-    <header className='flex bg-[#003a7a] z-10 items-center justify-between p-5 h-16 w-11/12 drop-shadow-lg max-w-3xl fixed top-2 left-1/2 -translate-x-1/2 rounded-2xl'>
+    <header className='flex bg-[#003a7a] z-10 items-center justify-between p-5 h-16 w-11/12 drop-shadow- max-w-3xl fixed top-2 left-1/2 -translate-x-1/2 rounded-2xl'>
       <div className='flex items-center'>
         <a href='/#'>
           <img

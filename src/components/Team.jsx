@@ -9,7 +9,7 @@ import { Card } from './TeamCard/Card';
 export function Team() {
   return (
     <section className='my-10 w-full xl:container mx-auto px-3'>
-      <h1 className='text-center font-bold text-3xl'>Conheça nossa equipe</h1>
+      <h1 className='text-center font-bold text-4xl'>Conheça nossa equipe</h1>
       <div className='flex justify-center items-center mb-20'>
         <div className='mt-10 w-auto flex overflow-x-auto mx-auto gap-3 pb-1 animate-sobe'>
           <Card Name={'Arthur'} Subtitle={'FullStack developer'} src={arthur} />
