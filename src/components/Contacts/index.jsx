@@ -22,9 +22,9 @@ export function Contacts() {
 
   return (
     <>
-      <div id='Contatos' className='animate-showing'>
+      <div id='Contatos' className='animate-showing w-full xl:container mx-auto rounded-md bg-slate-900/[.35] py-6 mb-20'>
         <div className='text-center text-4xl font-bold mb-10'>Contato</div>
-        <div className='flex items-center justify-center gap-20 mb-20'>
+        <div className='flex items-center justify-center gap-20'>
           <div>
             <div className='text-3xl font-bold mb-10'>Pensando em dar vida para aquele projeto esquecido?</div>
             <p>
