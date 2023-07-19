@@ -5,6 +5,7 @@ export function Card1() {
       <div className='w-1/2 h-96 bg-slate-900 flex items-center justify-center rounded-lg overflow-hidden animate-showing'>
         <video src={mediaverse} alt='' autoPlay loop muted/>
       </div>
+      
       <div className='h-80 flex items-center justify-center rounded-lg  text-slate-50 w-1/2 h-96'>
         <div className='animate-showingReverse'>
           <h1 className='text-3xl text-slate-50 mb-6 ml-10'>MediaVerse</h1>
