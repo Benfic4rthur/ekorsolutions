@@ -27,7 +27,7 @@ export function Services() {
           />
           <Card
             Name={'Sites e Aplicações'}
-            Subtitle={'Sites e Aplicações personalizadas'}
+            Subtitle={'Sites e Aplicações web personalizadas'}
             src={sites}
           />
         </div>
