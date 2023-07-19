@@ -12,11 +12,6 @@ export default function Section() {
   return (
     <>
       <div className='font-normal text-base text-center mt-10 mb-10' style={divStyle}>
-        <h1 className='text-3xl font-bold'>Ekor solutions</h1>
-        <p>
-          Sistemas de agendamentos, financeiro <br />
-          cadastro e estoque
-        </p>
       </div>
     </>
   );

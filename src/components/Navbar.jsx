@@ -18,7 +18,7 @@ export default function Navbar() {
           </div>
           <nav>
             <ul className='list-none flex gap-[min(4rem_,_4vw)]'>
-              <li className='cursor-pointer hover:translate-y-1 duration-300'>Inicio</li>
+              <li className='cursor-pointer hover:translate-y-1 duration-300'>Início</li>
               <li className='cursor-pointer hover:translate-y-1 duration-300'>Produtos</li>
               <li className='cursor-pointer hover:translate-y-1 duration-300'>Serviços</li>
               <li className='cursor-pointer hover:translate-y-1 duration-300'>Contato</li>
@@ -29,4 +29,3 @@ export default function Navbar() {
     </>
   );
 }
-
