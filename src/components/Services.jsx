@@ -3,6 +3,7 @@ import consultoria from '../assets/consultoria.jpg';
 import design from '../assets/design.jpg';
 import engenharia from '../assets/engenharia.jpg';
 import suporte from '../assets/suporte.jpg';
+import sites from '../assets/sites.jpg';
 import { Card } from './ServicesCard/Card';
 
 export function Services() {
@@ -21,8 +22,13 @@ export function Services() {
           <Card Name={'Engenharia'} Subtitle={'Projetos de Engenharia'} src={engenharia} />
           <Card
             Name={'Consultoria'}
-            Subtitle={'Consultoria .Jus e para Desenvolvedores'}
+            Subtitle={'Consultoria .Jus e para Devs'}
             src={consultoria}
+          />
+          <Card
+            Name={'Sites e Aplicações'}
+            Subtitle={'Sites e Aplicações personalizadas'}
+            src={sites}
           />
         </div>
       </div>
