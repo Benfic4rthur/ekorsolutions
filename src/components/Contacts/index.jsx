@@ -47,7 +47,7 @@ export function Contacts() {
           <div className='flex flex-col gap-4 mt-24'>
             <div className='flex items-center gap-2'>
               <MdEmail />
-              <p>contato@gmail.com</p>
+              <p>ekor.solutions@gmail.com</p>
             </div>
             <a
               className='bg-[#003A7A] rounded-lg flex items-center justify-center p-3 hover:bg-[#304FE7] duration-500 text-white'
