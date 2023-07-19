@@ -33,6 +33,7 @@ export default function Footer() {
             src={logo}
             className='rounded-xl hover:transform hover:scale-125 duration-500 ml-32 h-10 cursor-pointer'
             alt='Logo'
+            title='Ekor Solutions'
           />
         </div>
         <div className='py-10 text-xs'>
