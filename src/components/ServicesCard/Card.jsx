@@ -3,7 +3,7 @@ export const Card = ({ src = '', Name, Subtitle }) => (
   <div className='h-80 w-64 flex-shrink-0 rounded-md py-6 flex gap-4 flex-col items-center'>
     <div className='h-64 w-64 overflow-hidden rounded-2xl'>
       <img
-        className='object-center object-cover	w-full h-full hover:-translate-y-1 duration-300 rounded-2xl'
+        className='object-center object-cover	w-full h-full hover:-translate-y-1 duration-300 rounded-2xl animate-showing'
         src={src}
         alt='Imagem do Serviço'
       />

@@ -15,8 +15,8 @@ export default function App() {
       <Navbar />
       <main className=' h-full text-gray-950 text-2xl max-w-full'>
         <Introduction />
-        <Products />
         <Services />
+        <Products />
         <Team />
       </main>
       <Footer />

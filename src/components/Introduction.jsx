@@ -18,7 +18,7 @@ export function Introduction() {
 
   return (
     <div
-      className={`font-normal h-[26rem] bg-center bg-cover w-full text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto`}
+      className={`font-normal h-[26rem] bg-center bg-cover w-full text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto animate-bounce`}
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className='flex items-center h-full px-3'>

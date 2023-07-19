@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'animate.css';
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -25,4 +27,106 @@
 ::-webkit-scrollbar-thumb:hover {
   transition: background-color 300ms linear;
   background-color: hsl(211, 90%, 18%);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  25% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(-25px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-bounce {
+  animation: bounce .7s;
+}
+
+@keyframes showing {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  50% {
+    opacity: .4;
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-showing {
+  animation: showing .8s;
+}
+
+@keyframes showingReverse {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  50% {
+    opacity: .4;
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-showingReverse {
+  animation: showingReverse .8s;
+}
+
+@keyframes sobe {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .4;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.animate-sobe {
+  animation: sobe .7s;
+}
+
+@keyframes desce {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .4;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.animate-desce {
+  animation: desce .7s;
 }
