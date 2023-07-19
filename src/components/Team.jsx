@@ -13,7 +13,7 @@ export function Team() {
       <div className='flex justify-center items-center mb-20'>
         <div className='mt-10 w-auto flex overflow-x-auto mx-auto gap-3 pb-1 animate-sobe'>
           <Card Name={'Arthur Graff'} Subtitle={'FullStack developer'} src={arthur} />
-          <Card Name={'joao Lucas'} Subtitle={'back-end developer'} src={joao} />
+          <Card Name={'joão Lucas'} Subtitle={'back-end developer'} src={joao} />
           <Card Name={'gabriel Duarte'} Subtitle={'front-end developer'} src={gabriel} />
           <Card Name={'elias Rosa'} Subtitle={'QA'} src={elias} />
           <Card Name={'natacha Azevedo'} Subtitle={'Designer/Marketing'} src={natacha} />
