@@ -5,7 +5,7 @@ import Products from './components/Products';
 import Services from './components/Services';
 import { Team } from './components/Team';
 
-// #353E69
+// #003A7A
 // #304FE7
 // #BEC9F7
 
