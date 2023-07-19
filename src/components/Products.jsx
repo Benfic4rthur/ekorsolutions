@@ -1,8 +1,5 @@
-// import { Element } from 'react-scroll';
 import mediaverse from '../assets/mediaverse.mp4';
 import epet from '../assets/epet.jpg';
-// import { Card1 } from './Card1';
-// import { Card2 } from './Card2';
 import { ProductCardLeft, ProductCardRight } from './ProductCard';
 
 export function Products() {
