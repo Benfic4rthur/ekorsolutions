@@ -1,3 +1,4 @@
+import { Contacts } from './components/Contacts';
 import { Footer } from './components/Footer';
 import { Introduction } from './components/Introduction';
 import { Navbar } from './components/Navbar';
@@ -18,6 +19,7 @@ export default function App() {
         <Services />
         <Products />
         <Team />
+        <Contacts />
       </main>
       <Footer />
     </div>

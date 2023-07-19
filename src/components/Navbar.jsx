@@ -85,14 +85,17 @@ export function Navbar() {
             </Link>
           </li>
           <li className='cursor-pointer hover:translate-y-1 duration-300'>
-            <a
-              href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
-              title={faleConosco}
-              target=' _blank'
-              onClick={() => setTitle('Contato')}
+            <Link
+              to='Contatos'
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              title='Contatos'
+              onClick={() => setTitle('Contatos')}
             >
-              Contato
-            </a>
+              Contatos
+            </Link>
           </li>
         </ul>
       </nav>
