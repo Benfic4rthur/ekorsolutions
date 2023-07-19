@@ -5,7 +5,7 @@ import logo from '../../public/icone.png';
 const faleConosco = 'Fale Conosco';
 const instagram = 'Instagram';
 
-const number = '51991640517'; // Número de telefone do WhatsApp
+const number = '5551991640517'; // Número de telefone do WhatsApp
 const messageBomDia = 'Bom dia! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de bom dia
 const messageBoaTarde = 'Boa tarde! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de boa tarde
 const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de boa noite
