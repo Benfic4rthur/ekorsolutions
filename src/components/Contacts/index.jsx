@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { MdEmail } from 'react-icons/md';
 
 const faleConosco = 'Fale Conosco';
@@ -10,11 +9,7 @@ const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um projet
 const now = new Date();
 const currentHour = now.getHours();
 export function Contacts() {
-  const [title, setTitle] = useState('Início');
 
-  useEffect(() => {
-    document.title = `Ekor Solutions - ${title}`;
-  }, [title]);
 
   let message = ''; // Inicialize a mensagem vazia
 
@@ -47,14 +42,13 @@ export function Contacts() {
           <div className='flex flex-col gap-4 mt-24'>
             <div className='flex items-center gap-2'>
               <MdEmail />
-              <p>contato@gmail.com</p>
+              <p>ekor.solutions@gmail.com</p>
             </div>
             <a
               className='bg-[#003A7A] rounded-lg flex items-center justify-center p-3 hover:bg-[#304FE7] duration-500 text-white'
               href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
               title={faleConosco}
               target=' _blank'
-              onClick={() => setTitle('Contato')}
             >
               Entrar em contato
             </a>
