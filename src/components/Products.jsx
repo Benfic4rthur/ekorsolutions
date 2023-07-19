@@ -1,5 +1,6 @@
 // import { Element } from 'react-scroll';
 import mediaverse from '../assets/mediaverse.mp4';
+import epet from '../assets/epet.jpg';
 // import { Card1 } from './Card1';
 // import { Card2 } from './Card2';
 import { ProductCardLeft, ProductCardRight } from './ProductCard';
@@ -20,7 +21,7 @@ export function Products() {
           <ProductCardRight
             description='Descubra o nosso aplicativo de petshop completo! Agende facilmente horários para serviços, como banho e tosa, venda produtos e acompanhe as últimas novidades da sua loja favorita. Com recursos intuitivos, você pode gerenciar seu petshop de forma eficiente, oferecer conveniência aos clientes e aumentar suas vendas. Experimente nosso app e simplifique a vida dos amantes de animais. Acesse agora e aproveite todos os benefícios que temos a oferecer.'
             title='E-Pet'
-            src={mediaverse}
+            src={epet}
           />
         </div>
       </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export const ProductCard = ({ title, description, src }) => (
   <div className='w-full grid grid-cols-2 gap-[3%] p-2 order-2'>
     <div className='aspect-video bg-black/30 rounded-xl overflow-hidden'>
@@ -41,11 +42,8 @@ export const ProductCardRight = ({ title, description, src }) => (
       <p className='font-medium text-lg text-slate-50'>{description}</p>
     </div>
     <div className='aspect-video bg-black/30 rounded-xl overflow-hidden'>
-      <video
+      <img
         src={src}
-        autoPlay
-        loop
-        muted
         className='object-center object-cover	min-w-full min-h-full left-0 right-0'
       />
     </div>
