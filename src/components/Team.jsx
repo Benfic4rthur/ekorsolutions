@@ -10,7 +10,7 @@ export function Team() {
   return (
     <div className='my-10'>
       <h1 className='text-center font-bold text-3xl'>Conheça nossa equipe</h1>
-      <div className='flex justify-center items-center px-3'>
+      <div className='flex justify-center items-center px-3 mb-20'>
         <div className='mt-10 w-auto flex overflow-x-auto mx-auto gap-2'>
           <Card Name={'Arthur'} Subtitle={'FullStack developer'} src={arthur} />
           <Card Name={'joao'} Subtitle={'back-end developer'} src={joao} />

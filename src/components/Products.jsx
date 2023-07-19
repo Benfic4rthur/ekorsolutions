@@ -4,7 +4,7 @@ import Card2 from './Card2';
 export default function Products() {
   return (
     <>
-      <div>
+      <div className='mb-20'>
         <h1 className='text-3xl text-center font-bold'>Nossos Produtos</h1>
         <Card1 />
         <Card2 />

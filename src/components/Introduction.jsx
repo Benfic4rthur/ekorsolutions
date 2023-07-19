@@ -1,8 +1,8 @@
-import notebook from '../assets/wpp.jpg';
+import banner from '../assets/banner.jpg';
 
 export default function Section() {
   const divStyle = {
-    backgroundImage: `url(${notebook})`,
+    backgroundImage: `url(${banner})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '50vh', // Define a altura da div como 100% da altura da tela
@@ -11,8 +11,10 @@ export default function Section() {
 
   return (
     <>
-      <div className='font-normal text-base text-center mt-10 mb-10' style={divStyle}>
-      </div>
+      <div
+        className='font-normal text-base text-center mt-10 mb-20 rounded-3xl'
+        style={divStyle}
+      ></div>
     </>
   );
 }
