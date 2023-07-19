@@ -1,16 +1,16 @@
 import certificado from '../assets/certificado.jpg';
-import suporte from '../assets/suporte.jpg';
+import consultoria from '../assets/consultoria.jpg';
 import design from '../assets/design.jpg';
 import engenharia from '../assets/engenharia.jpg';
-import consultoria from '../assets/consultoria.jpg';
+import suporte from '../assets/suporte.jpg';
 import { Card } from './ServicesCard/Card';
 
-export default function Services() {
+export function Services() {
   return (
-    <div className='my-10'>
+    <section className=' w-full xl:container mx-auto'>
       <h1 className='text-center font-bold text-3xl'>Nossos Serviços</h1>
-      <div className='flex justify-center items-center px-3 mb-20'>
-        <div className='mt-10 w-auto flex overflow-x-auto mx-auto gap-2'>
+      <div className='flex justify-center items-center px-3'>
+        <div className=' w-auto flex overflow-x-auto mx-auto gap-3  pb-1'>
           <Card
             Name={'Certificação'}
             Subtitle={'Emissão de Certificado Digital'}
@@ -26,6 +26,6 @@ export default function Services() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

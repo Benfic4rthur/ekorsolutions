@@ -1,5 +1,5 @@
-import { MdWhatsapp } from 'react-icons/md';
 import { LuInstagram } from 'react-icons/lu';
+import { MdWhatsapp } from 'react-icons/md';
 import logo from '../../public/icone.png';
 
 const faleConosco = 'Fale Conosco';
@@ -24,37 +24,37 @@ if (currentHour >= 0 && currentHour < 12) {
   message = messageBoaNoite;
 }
 
-export default function Footer() {
+export function Footer() {
   return (
     <>
-      <div className='bg-[#003A7A] h-24 w-full flex justify-between'>
-        <div className='flex py-7'>
+      <footer className='bg-[#003A7A] h-24 w-full flex gap-1 justify-between items-center p-[min(2.5rem_,_3%)]'>
+        <div className='flex min-w-[4.25rem] justify-center'>
           <img
             src={logo}
-            className='rounded-xl hover:transform hover:scale-125 duration-500 ml-32 h-10 cursor-pointer'
+            className='rounded-xl hover:transform hover:scale-125 duration-500 h-10 cursor-pointer'
             alt='Logo'
             title='Ekor Solutions'
           />
         </div>
-        <div className='py-10 text-xs'>
+        <p className='text-xs text-center'>
           Ekor Solutions &copy; - Todos os direitos reservados, {year}
-        </div>
-        <div className='flex'>
+        </p>
+        <section className='flex gap-2  w-[4.25rem]'>
           <a
             href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
             title={faleConosco}
           >
-            <p className='text-3xl py-8 mr-2 hover:transform hover:scale-125 duration-500'>
+            <p className='text-3xl hover:transform hover:scale-125 duration-500'>
               <MdWhatsapp />
             </p>
           </a>
           <a href='https://www.instagram.com/ekor.solutions/' title={instagram}>
-            <p className='text-3xl py-8 mr-32 hover:scale-125 duration-500'>
+            <p className='text-3xl  hover:scale-125 duration-500'>
               <LuInstagram />
             </p>
           </a>
-        </div>
-      </div>
+        </section>
+      </footer>
     </>
   );
 }
