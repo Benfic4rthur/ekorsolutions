@@ -12,7 +12,7 @@ export const Card = ({ src = '', Name, Subtitle }) => (
     <div className='text-center flex  flex-col'>
       <h3 className='capitalize font-medium text-xl text-gray-900 whitespace-nowrap'>{Name}</h3>
 
-      <p className='capitalize font-medium text-sm text-gray-900 whitespace-nowrap'>{Subtitle}</p>
+      <p className='font-medium text-sm text-gray-900 whitespace-nowrap'>{Subtitle}</p>
     </div>
   </div>
 );

@@ -7,7 +7,7 @@ import { Card } from './ServicesCard/Card';
 
 export function Services() {
   return (
-    <section className=' w-full xl:container mx-auto'>
+    <section className=' w-full xl:container mx-auto' id='Services'>
       <h1 className='text-center font-bold text-3xl'>Nossos Serviços</h1>
       <div className='flex justify-center items-center px-3'>
         <div className=' w-auto flex overflow-x-auto mx-auto gap-3  pb-1'>

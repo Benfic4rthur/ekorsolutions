@@ -43,12 +43,13 @@ export function Footer() {
           <a
             href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
             title={faleConosco}
+            target=' _blank'
           >
-            <p className='text-3xl hover:transform hover:scale-125 duration-500'>
+            <p className='text-3xl hover:transform hover:scale-125 duration-500' id='whatsapp'>
               <MdWhatsapp />
             </p>
           </a>
-          <a href='https://www.instagram.com/ekor.solutions/' title={instagram}>
+          <a href='https://www.instagram.com/ekor.solutions/' title={instagram} target=' _blank'>
             <p className='text-3xl  hover:scale-125 duration-500'>
               <LuInstagram />
             </p>
