@@ -12,12 +12,12 @@ export function Team() {
       <h1 className='text-center font-bold text-3xl'>Conheça nossa equipe</h1>
       <div className='flex justify-center items-center px-3 mb-20'>
         <div className='mt-10 w-auto flex overflow-x-auto mx-auto gap-2'>
-          <Card Name={'Arthur'} Subtitle={'FullStack developer'} src={arthur} />
-          <Card Name={'joao'} Subtitle={'back-end developer'} src={joao} />
-          <Card Name={'gabriel'} Subtitle={'front-end developer'} src={gabriel} />
-          <Card Name={'elias'} Subtitle={'QA'} src={elias} />
-          <Card Name={'natacha'} Subtitle={'Designer/Marketing'} src={natacha} />
-          <Card Name={'nilson'} Subtitle={'Engenharia/Matematica'} src={nilson} />
+          <Card Name={'Arthur Graff'} Subtitle={'FullStack developer'} src={arthur} />
+          <Card Name={'João Lucas'} Subtitle={'back-end developer'} src={joao} />
+          <Card Name={'Gabriel Duarte'} Subtitle={'front-end developer'} src={gabriel} />
+          <Card Name={'Elias Rosa'} Subtitle={'QA'} src={elias} />
+          <Card Name={'Natacha Azevedo'} Subtitle={'Designer/Marketing'} src={natacha} />
+          <Card Name={'Nilson Lemos'} Subtitle={'Engenharia/Matematica'} src={nilson} />
         </div>
       </div>
     </div>
