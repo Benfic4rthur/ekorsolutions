@@ -2,7 +2,7 @@ import mediaverse from '../assets/mediaverse.mp4';
 export function Card2() {
   return (
     <div className='h-80 flex items-center justify-center rounded-lg  text-slate-50 h-96'>
-        <div className='animate-showingReverse w-1/2 '>
+        <div className='animate-showing w-1/2 '>
           <h1 className='text-3xl text-slate-50 mb-6 mr-10'>E-Pet</h1>
           <p className='font-medium text-xl text-slate-50 mr-10'>
           Descubra o nosso aplicativo de petshop completo! Agende facilmente horários para serviços,
@@ -13,7 +13,7 @@ export function Card2() {
           oferecer.
         </p>
       </div>
-      <div className='w-1/2 h-96 bg-slate-900 flex items-center justify-center rounded-lg overflow-hidden animate-showing'>
+      <div className='w-1/2 h-96 bg-slate-900 flex items-center justify-center rounded-lg overflow-hidden animate-showingReverse'>
         <video src={mediaverse} alt='' autoPlay loop muted/>
       </div>
     </div>
