@@ -24,7 +24,7 @@ export function Introduction() {
       style={{ backgroundImage: `url(${window.innerWidth > 768 ? banner : iphone})` }}
     >
       <div className='flex items-center h-full px-3 justify-center '>
-        <div className='h-[18rem] xs:max-w-[13rem] tamanhodapica ml-3 md:w-[40em] lg:ml-0 lg:mr-1 lg:max-w-[47.35rem] items-center relative overflow-hidden text-center text-white '>
+        <div className='h-[18rem] xs:max-w-[13rem] tamanhodapica ml-3 lg:ml-0 lg:mr-1 lg:max-w-[47.35rem] items-center relative overflow-hidden text-center text-white '>
           <Slider {...settings}>
             <div className='flex justify-center items-center flex-col h-full'>
               <h3 className='tmobile text-5xl flexCenter'>
