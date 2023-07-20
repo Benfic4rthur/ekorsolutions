@@ -14,7 +14,7 @@ export function Navbar() {
 
 
   return (
-    <header className='flex bg-[#003a7a] z-10 items-center justify-between p-5 h-16 w-11/12 drop-shadow- max-w-3xl fixed top-2 left-1/2 -translate-x-1/2 rounded-2xl'>
+    <header className='flex bg-[#003a7a] z-10 items-center justify-between py-5 px-4 h-16 w-[95%] drop-shadow- max-w-3xl fixed top-2 left-1/2 -translate-x-1/2 rounded-2xl'>
       <div className='flex items-center'>
         <Link to='init' spy={true} smooth={true} offset={-70} duration={750}>
           <img
@@ -25,7 +25,7 @@ export function Navbar() {
             onClick={() => setTitle('Início')}
           />
         </Link>
-        <img src={titulo} alt='Ekor Solutions' className='w-16 ml-2' />
+        <img src={titulo} alt='Ekor Solutions' className='w-16 ml-2 hidden sm:block' />
       </div>
       <nav>
         <ul className='list-none flex gap-[min(3rem_,_3vw)]'>
@@ -47,7 +47,6 @@ export function Navbar() {
               to='Products'
               spy={true}
               smooth={true}
-
               offset={-40}
               duration={600}
               title='Produtos'
