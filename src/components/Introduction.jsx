@@ -11,7 +11,7 @@ export function Introduction() {
     slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 4000,
     nextArrow: <></>,
     prevArrow: <></>,
     cssEase: 'linear',
@@ -24,7 +24,7 @@ export function Introduction() {
       style={{ backgroundImage: `url(${window.innerWidth > 768 ? banner : iphone})` }}
     >
       <div className='flex items-center h-full px-3 justify-center '>
-        <div className='w-full sm:w-4/5 max-w-[47.35rem] items-center relative overflow-hidden text-center text-white h-[18rem]'>
+        <div className='max-w-[13rem] ml-3 lg:ml-0 lg:mr-1 lg:max-w-[47.35rem] items-center relative overflow-hidden text-center text-white h-[18rem]'>
           <Slider {...settings}>
             <div className='flex justify-center items-center flex-col h-full'>
               <h3 className='tmobile text-5xl flexCenter'>
@@ -61,7 +61,7 @@ export function Introduction() {
             </div>
             <div className='flex justify-center items-center flex-col'>
               <h3 className='tmobile text-5xl flexCenter'>Assinatura digital</h3>
-              <p className='tmobile text-5xl flexCenter'>
+              <p className='text-3xl pmobile'>
                 Segurança e confiabilidade para sua empresa em transações online
               </p>
             </div>
