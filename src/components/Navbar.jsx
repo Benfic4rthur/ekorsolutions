@@ -22,6 +22,7 @@ export function Navbar() {
             className='rounded-xl w-8 hover:transform hover:scale-125 duration-500 cursor-pointer'
             alt='Logo'
             title='Ekor Solutions'
+            onClick={() => setTitle('Início')}
           />
         </Link>
         <img src={titulo} alt='Ekor Solutions' className='w-16 ml-2' />
@@ -34,7 +35,7 @@ export function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={750}
               title='Início'
               onClick={() => setTitle('Início')}
             >
@@ -47,7 +48,7 @@ export function Navbar() {
               spy={true}
               smooth={true}
               offset={-5}
-              duration={500}
+              duration={750}
               title='Produtos'
               onClick={() => setTitle('Produtos')}
             >
@@ -60,7 +61,7 @@ export function Navbar() {
               spy={true}
               smooth={true}
               offset={-90}
-              duration={500}
+              duration={750}
               title='Serviços'
               onClick={() => setTitle('Serviços')}
             >
@@ -73,7 +74,7 @@ export function Navbar() {
               spy={true}
               smooth={true}
               offset={-100}
-              duration={500}
+              duration={750}
               title='Contatos'
               onClick={() => setTitle('Contatos')}
             >
