@@ -2,7 +2,7 @@ import { Contacts } from './components/Contacts';
 import { Footer } from './components/Footer';
 import { Introduction } from './components/Introduction';
 import { Navbar } from './components/Navbar';
-// import { Products } from './components/Products';
+import { Products } from './components/Products';
 import { Services } from './components/Services';
 import { Team } from './components/Team';
 
@@ -17,7 +17,7 @@ export default function App() {
       <main className='h-full text-gray-950 text-2xl max-w-full'>
         <Introduction />
         <Services />
-        {/* <Products /> */}
+        <Products />
         <Contacts />
         <Team />
       </main>
