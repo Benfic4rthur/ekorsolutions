@@ -44,7 +44,7 @@ export function Contacts() {
                 target=' _blank'
               >
                 <MdEmail />
-                Entrar em contato
+                Contate-nos por e-mail
               </a>
               <a
                 className='bg-[hsl(138,78%,25%)] whitespace-nowrap rounded-lg text-[1.375rem] flex gap-2 items-center justify-center p-3 hover:transform hover:scale-110 hover:bg-[hsl(138,58%,19%)] duration-500 text-white'
@@ -53,7 +53,7 @@ export function Contacts() {
                 target=' _blank'
               >
                 <MdWhatsapp />
-                Entrar em contato
+                Chame pelo whatsapp
               </a>
             </div>
           </div>

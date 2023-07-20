@@ -19,7 +19,7 @@ export function Introduction() {
   return (
     <div
       id='init'
-      className={`font-normal h-[40rem] bg-center bg-cover lg:w-full   text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto animate-bounce`}
+      className={`font-normal h-[40rem] bg-center bg-cover lg:w-full text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto animate-bounce`}
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className='flex items-center h-full px-3 sm:ml-[5rem] md:ml-[13rem] lg:ml-[23rem] '>
