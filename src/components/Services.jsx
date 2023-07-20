@@ -13,22 +13,22 @@ export function Services() {
       <div className='flex justify-center items-center px-3'>
         <div className=' w-auto flex overflow-x-auto mx-auto gap-3  pb-1'>
           <Card
+            Name={'Sites e Aplicações'}
+            Subtitle={'Sites e Aplicações web personalizadas'}
+            src={sites}
+          />
+          <Card Name={'Suporte'} Subtitle={'Suporte Terceirizado'} src={suporte} />
+          <Card Name={'Design'} Subtitle={'Projetos de Design'} src={design} />
+          <Card Name={'Consultoria'} Subtitle={'Consultoria .Jus e para Devs'} src={consultoria} />
+          <Card
             Name={'Certificação'}
             Subtitle={'Emissão de Certificado Digital'}
             src={certificado}
           />
-          <Card Name={'Suporte'} Subtitle={'Suporte Terceirizado'} src={suporte} />
-          <Card Name={'Design'} Subtitle={'Projetos de Design'} src={design} />
-          <Card Name={'Engenharia'} Subtitle={'Engenharia e modelagem matematica'} src={engenharia} />
           <Card
-            Name={'Consultoria'}
-            Subtitle={'Consultoria .Jus e para Devs'}
-            src={consultoria}
-          />
-          <Card
-            Name={'Sites e Aplicações'}
-            Subtitle={'Sites e Aplicações web personalizadas'}
-            src={sites}
+            Name={'Engenharia'}
+            Subtitle={'Engenharia e modelagem matematica'}
+            src={engenharia}
           />
         </div>
       </div>
