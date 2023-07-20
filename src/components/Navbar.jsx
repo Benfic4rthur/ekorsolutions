@@ -44,19 +44,6 @@ export function Navbar() {
           </li>
           <li className='cursor-pointer hover:translate-y-1 duration-300'>
             <Link
-              to='Products'
-              spy={true}
-              smooth={true}
-              offset={-40}
-              duration={600}
-              title='Produtos'
-              onClick={() => setTitle('Produtos')}
-            >
-              Produtos
-            </Link>
-          </li>
-          <li className='cursor-pointer hover:translate-y-1 duration-300'>
-            <Link
               to='Services'
               spy={true}
               smooth={true}
@@ -66,6 +53,19 @@ export function Navbar() {
               onClick={() => setTitle('Serviços')}
             >
               Serviços
+            </Link>
+          </li>
+          <li className='cursor-pointer hover:translate-y-1 duration-300'>
+            <Link
+              to='Products'
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={600}
+              title='Produtos'
+              onClick={() => setTitle('Produtos')}
+            >
+              Produtos
             </Link>
           </li>
           <li className='cursor-pointer hover:translate-y-1 duration-300'>
