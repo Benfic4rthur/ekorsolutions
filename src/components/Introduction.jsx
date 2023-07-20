@@ -9,7 +9,7 @@ export function Introduction() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 4000,
+    speed: 3000,
     autoplaySpeed: 6000,
     nextArrow: <></>,
     prevArrow: <></>,
@@ -19,14 +19,14 @@ export function Introduction() {
   return (
     <div
       id='init'
-      className={`font-normal h-[26rem] bg-center bg-cover w-full text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto animate-bounce`}
+      className={`font-normal h-[40rem] bg-center bg-cover lg:w-full   text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto animate-bounce`}
       style={{ backgroundImage: `url(${banner})` }}
     >
-      <div className='flex items-center h-full px-3'>
-        <div className='w-full sm:w-4/5 max-w-[38rem] h-fit  relative overflow-hidden pb-6 text-center text-white '>
+      <div className='flex items-center h-full px-3 lg:ml-[23rem] sm:ml-[5rem]'>
+        <div className='w-full sm:w-4/5 max-w-[46.35rem] align-center h-fit relative overflow-hidden lg:pb-32 text-center text-white'>
           <Slider {...settings}>
             <div className='flex justify-center items-center flex-col h-full'>
-              <h2 className='text-4xl sm:text-6xl'>
+              <h2 className='text-4xl sm:text-6xl lg:pt-5 sm:pt-0'>
                 Assinatura digital
               </h2>
               <p className='text-base sm:text-2xl'>
