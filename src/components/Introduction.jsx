@@ -39,7 +39,7 @@ export function Introduction() {
               </p>
             </div>
             <div className='flex justify-center items-center flex-col h-full'>
-              <h3 className='text-4xl'>
+              <h3 className='text-4xl sm:text-6xl'>
                 Suporte Especializado
                 <br />e humanizado
               </h3>
