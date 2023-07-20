@@ -129,3 +129,16 @@
 .animate-desce {
   animation: desce 0.7s;
 }
+
+@media (max-width: 768px) {
+  .tmobile {
+    font-size: 1.2rem;
+  }
+  .pmobile {
+    font-size: 0;
+  }
+  .flexCenter {
+    padding-top: 7rem;
+    padding-left: 0.75rem;
+  }
+}
