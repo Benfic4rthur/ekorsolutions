@@ -27,28 +27,62 @@ export function Introduction() {
           <Slider {...settings}>
             <div className='flex justify-center items-center flex-col h-full'>
               <h3 className='text-4xl sm:text-6xl'>
-                Acesse todas
+                Assinatura digital
                 <br />
-                as informações
-              </h3>
-              <p className='text-base sm:text-2xl'>do seu negócio de onde estiver</p>
-            </div>
-            <div className='flex justify-center items-center flex-col h-full'>
-              <h3 className='text-4xl sm:text-6xl'>
-                Gestão e controle
-                <br />
-                de ponta a ponta
               </h3>
               <p className='text-base sm:text-2xl'>
-                para levar o seu estabelecimento a outro nível
+                Segurança e confiabilidade para sua empresa em transações online
               </p>
             </div>
             <div className='flex justify-center items-center flex-col h-full'>
               <h3 className='text-4xl sm:text-6xl'>
-                Um sistema completo
+                Suporte Especializado
+                <br />e humanizado
+              </h3>
+              <p className='text-base sm:text-2xl'>
+                Um suporte especializado e dedicado para impulsionar o sucesso do seu negócio
+              </p>
+            </div>
+            <div className='flex justify-center items-center flex-col h-full'>
+              <h3 className='text-4xl sm:text-6xl'>
+                Design criativo
+                <br />e funcional
+              </h3>
+              <p className='text-base sm:text-2xl'>
+                Projetos de design criativos e inovadores
+                <br />
+                criando experiencias unicas para nossos clientes
+              </p>
+            </div>
+            <div className='flex justify-center items-center flex-col h-full'>
+              <h3 className='text-4xl sm:text-6xl'>
+                Engenharia voltada
+                <br />
+                para o futuro
+              </h3>
+              <p className='text-base sm:text-2xl'>
+                Projetos de engenharia precisos e baseados em modelagem matemática, garantindo
+                resultados confiáveis e eficientes
+              </p>
+            </div>
+            <div className='flex justify-center items-center flex-col h-full'>
+              <h3 className='text-4xl sm:text-6xl'>
+                Consultoria Especializada
                 <br />
               </h3>
-              <p className='text-base sm:text-2xl'>e descomplicando para a gestão do seu negócio</p>
+              <p className='text-base sm:text-2xl'>
+                Consultoria voltada as plataformas .jus e a novos desenvolvedores com dificuldade em areas sensíveis
+              </p>
+            </div>
+            <div className='flex justify-center items-center flex-col h-full'>
+              <h3 className='text-4xl sm:text-6xl'>
+                Site personalizado
+                <br />
+                conforme necessidade
+              </h3>
+              <p className='text-base sm:text-2xl'>
+              Transformamos suas ideias em realidade, criando sites e aplicações web personalizadas que refletem a essência do seu negócio
+              </p>
             </div>
           </Slider>
         </div>
