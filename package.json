@@ -1,5 +1,4 @@
 {
-
   "name": "ekorsulutions",
   "private": true,
   "version": "0.0.0",
@@ -11,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
     "animate.css": "^4.1.1",
     "carousel": "^0.0.3",
     "react": "^18.2.0",

@@ -27,15 +27,6 @@ export function Introduction() {
         <div className='w-full sm:w-4/5 max-w-[47.35rem] align-center relative overflow-hidden text-center text-white h-[18rem]'>
           <Slider {...settings}>
             <div className='flex justify-center items-center flex-col h-full'>
-              <h3 className='text-4xl'>
-                Suporte Especializado
-                <br />e humanizado
-              </h3>
-              <p className='text-base sm:text-2xl'>
-                Um suporte especializado e dedicado para impulsionar o sucesso do seu negócio
-              </p>
-            </div>
-            <div className='flex justify-center items-center flex-col h-full'>
               <h3 className='text-4xl sm:text-6xl'>
                 Site personalizado
                 <br />
@@ -45,6 +36,15 @@ export function Introduction() {
                 Transformamos suas ideias em realidade, <br />
                 criando sites e aplicações web personalizadas <br />
                 que refletem a essência do seu negócio
+              </p>
+            </div>
+            <div className='flex justify-center items-center flex-col h-full'>
+              <h3 className='text-4xl'>
+                Suporte Especializado
+                <br />e humanizado
+              </h3>
+              <p className='text-base sm:text-2xl'>
+                Um suporte especializado e dedicado para impulsionar o sucesso do seu negócio
               </p>
             </div>
             <div className='flex justify-center items-center flex-col h-full'>

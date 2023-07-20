@@ -5,6 +5,8 @@ import engenharia from '../assets/engenharia.jpg';
 import suporte from '../assets/suporte.jpg';
 import sites from '../assets/sites.jpg';
 import { Card } from './ServicesCard/Card';
+import Icon from '@mdi/react';
+import { mdiArrowRightBoldCircle } from '@mdi/js';
 
 export function Services() {
   return (
@@ -31,6 +33,10 @@ export function Services() {
             src={engenharia}
           />
         </div>
+      </div>
+      <div className='flex lg:hidden animate-showing'>
+        <p className='text-sm pt-[1.35rem] ml-5 '>Arraste para o lado</p>{' '}
+        <Icon path={mdiArrowRightBoldCircle} size={1} className='mt-5 ml-5 animate-bounceX' />
       </div>
     </section>
   );

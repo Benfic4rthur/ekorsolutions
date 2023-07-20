@@ -56,6 +56,21 @@
   animation: bounce .7s;
 }
 
+@keyframes bounceX {
+  0%, 100% {
+      transform: translateX(-50%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+  50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+.animate-bounceX {
+  animation: bounceX 1s infinite;
+}
+
+
 @keyframes showing {
   0% {
     opacity: 0;
