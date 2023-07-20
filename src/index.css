@@ -55,19 +55,19 @@
 }
 
 @keyframes bounceX {
-  0%, 100% {
-      transform: translateX(-50%);
-      animation-timing-function: cubic-bezier(0.8,0,1,1);
+  0%,
+  100% {
+    transform: translateX(-50%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
   50% {
-      transform: none;
-      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
 .animate-bounceX {
   animation: bounceX 1s infinite;
 }
-
 
 @keyframes showing {
   0% {
@@ -143,4 +143,16 @@
 }
 .animate-desce {
   animation: desce 0.7s;
+}
+@media (max-width: 768px) {
+  .tmobile {
+    font-size: 1.2rem;
+  }
+  .pmobile {
+    font-size: 0;
+  }
+  .flexCenter {
+    padding-top: 7rem;
+    padding-left: 0.75rem;
+  }
 }
