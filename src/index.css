@@ -29,6 +29,7 @@
   background-color: hsl(211, 90%, 18%);
 }
 
+
 @keyframes bounce {
   0% {
     transform: translateY(-50px);
