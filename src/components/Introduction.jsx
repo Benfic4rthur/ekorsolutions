@@ -22,13 +22,11 @@ export function Introduction() {
       className={`font-normal h-[40rem] bg-center bg-cover lg:w-full   text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto animate-bounce`}
       style={{ backgroundImage: `url(${banner})` }}
     >
-      <div className='flex items-center h-full px-3 lg:ml-[23rem] sm:ml-[5rem]'>
+      <div className='flex items-center h-full px-3 sm:ml-[5rem] md:ml-[13rem] lg:ml-[23rem] '>
         <div className='w-full sm:w-4/5 max-w-[46.35rem] align-center h-fit relative overflow-hidden lg:pb-32 text-center text-white'>
           <Slider {...settings}>
             <div className='flex justify-center items-center flex-col h-full'>
-              <h2 className='text-4xl sm:text-6xl lg:pt-5 sm:pt-0'>
-                Assinatura digital
-              </h2>
+              <h2 className='text-4xl sm:text-6xl lg:pt-5 sm:pt-0'>Assinatura digital</h2>
               <p className='text-base sm:text-2xl'>
                 Segurança e confiabilidade para sua empresa em transações online
               </p>
@@ -70,7 +68,8 @@ export function Introduction() {
                 <br />
               </h3>
               <p className='text-base sm:text-2xl'>
-                Consultoria voltada as plataformas .jus e a novos desenvolvedores com dificuldade em areas sensíveis
+                Consultoria voltada as plataformas .jus e a novos desenvolvedores com dificuldade em
+                areas sensíveis
               </p>
             </div>
             <div className='flex justify-center items-center flex-col h-full'>
@@ -80,7 +79,8 @@ export function Introduction() {
                 conforme necessidade
               </h3>
               <p className='text-base sm:text-2xl'>
-              Transformamos suas ideias em realidade, criando sites e aplicações web personalizadas que refletem a essência do seu negócio
+                Transformamos suas ideias em realidade, criando sites e aplicações web
+                personalizadas que refletem a essência do seu negócio
               </p>
             </div>
           </Slider>
