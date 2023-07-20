@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import 'animate.css';
 
-
 /* width */
 ::-webkit-scrollbar {
   height: 11px;
@@ -29,7 +28,6 @@
   background-color: hsl(211, 90%, 18%);
 }
 
-
 @keyframes bounce {
   0% {
     transform: translateY(-50px);
@@ -53,7 +51,7 @@
 }
 
 .animate-bounce {
-  animation: bounce .7s;
+  animation: bounce 0.7s;
 }
 
 @keyframes showing {
@@ -63,7 +61,7 @@
   }
 
   50% {
-    opacity: .4;
+    opacity: 0.4;
   }
 
   100% {
@@ -73,7 +71,7 @@
 }
 
 .animate-showing {
-  animation: showing .8s;
+  animation: showing 0.8s;
 }
 
 @keyframes showingReverse {
@@ -83,7 +81,7 @@
   }
 
   50% {
-    opacity: .4;
+    opacity: 0.4;
   }
 
   100% {
@@ -93,7 +91,7 @@
 }
 
 .animate-showingReverse {
-  animation: showingReverse .8s;
+  animation: showingReverse 0.8s;
 }
 
 @keyframes sobe {
@@ -103,7 +101,7 @@
   }
 
   50% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     transform: none;
@@ -111,7 +109,7 @@
   }
 }
 .animate-sobe {
-  animation: sobe .7s;
+  animation: sobe 0.7s;
 }
 
 @keyframes desce {
@@ -121,7 +119,7 @@
   }
 
   50% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     transform: none;
@@ -129,5 +127,5 @@
   }
 }
 .animate-desce {
-  animation: desce .7s;
+  animation: desce 0.7s;
 }
