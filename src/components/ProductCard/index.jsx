@@ -7,10 +7,10 @@ export const ProductCard = ({ title, description, src }) => (
         autoPlay
         loop
         muted
-        className='object-center object-cover min-w-full min-h-full'
+        className='object-center object-cover min-w-full'
       />
     </div>
-    <div className='h-full flex-col gap-3 flex justify-center'>
+    <div className='h-max flex-col gap-3 flex justify-center'>
       <h3 className='text-3xl text-slate-50'>{title}</h3>
       <p className='font-medium text-lg text-slate-50'>{description}</p>
     </div>
@@ -25,10 +25,10 @@ export const ProductCardLeft = ({ title, description, src }) => (
         autoPlay
         loop
         muted
-        className='object-center object-cover min-w-full min-h-full'
+        className='object-center object-cover min-w-full'
       />
     </div>
-    <div className='h-full flex-col gap-3 flex justify-center animate-showingReverse'>
+    <div className='h-max flex-col gap-3 flex justify-center animate-showingReverse'>
       <h3 className='text-3xl md:text-4xl text-slate-50'>{title}</h3>
       <p className='font-medium text-base lg:text-lg  text-slate-50'>{description}</p>
     </div>
