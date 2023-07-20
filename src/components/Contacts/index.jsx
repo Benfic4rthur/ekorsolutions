@@ -18,13 +18,7 @@ export function Contacts() {
   } else {
     message = messageBoaNoite;
   }
-
-  useEffect(() => {
-    const yy =
-      'Nós estamos aqui para por a mão na massa e não deixar que seu sonho volte para o massa e não deixar que seu sonho volte para o massa e não deixar que seu sonho volte para o.';
-    console.log(yy.length);
-  }, []);
-
+  
   return (
     <>
       <div
