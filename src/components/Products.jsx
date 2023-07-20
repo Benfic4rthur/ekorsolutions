@@ -4,7 +4,7 @@ import { ProductCardLeft, ProductCardRight } from './ProductCard';
 
 export function Products() {
   return (
-    <section className='bg-slate-800 grid place-items-center h-max'>
+    <section className='bg-slate-800 grid place-items-center h-auto'>
       <div className='py-12 px-3 w-full xl:container mx-auto flex flex-col gap-10' id='Products'>
         <h2 className='text-4xl text-center font-bold text-slate-50'>Nossos Produtos</h2>
         <div className='flex flex-col gap-6'>
