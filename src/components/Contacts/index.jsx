@@ -29,7 +29,7 @@ export function Contacts() {
         <div className='flex flex-col items-center justify-evenly gap-10  px-3 md:flex-row mb:gap-5'>
           <div className=' max-w-[33.125rem] w-full flex flex-col gap-8'>
             <h2 className='text-3xl sm:text-4xl md:text-[2.5rem] text-[hsl(226,57%,5%)] leading-tight lin font-bold'>
-              Transforme Sua Ideia em Realidade!
+              Transforme sua ideia em realidade!
             </h2>
             <p className='text-[1.3rem] leading-snug'>
               Transforme suas ideias em aplicativos personalizados de sucesso! Contate-nos hoje
