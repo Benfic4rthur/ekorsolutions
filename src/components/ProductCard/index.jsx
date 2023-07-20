@@ -18,7 +18,7 @@ export const ProductCard = ({ title, description, src }) => (
 );
 
 export const ProductCardLeft = ({ title, description, src }) => (
-  <div className='w-full grid grid-rows-[auto, auto] md:grid-cols-2 items-center gap-3 md:gap-[3%]'>
+  <div className='w-full grid grid-rows-[auto, auto] md:grid-cols-2 items-center gap-3 md:gap-[3%] p-2'>
     <div className='aspect-video bg-black/30 rounded-xl overflow-hidden animate-showing'>
       <video
         src={src}
