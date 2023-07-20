@@ -10,7 +10,7 @@ export function Introduction() {
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     nextArrow: <></>,
     prevArrow: <></>,
     cssEase: 'linear',
@@ -23,13 +23,12 @@ export function Introduction() {
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className='flex items-center h-full px-3'>
-        <div className='w-full sm:w-4/5 max-w-[38rem] h-fit  relative overflow-hidden pb-6 text-center text-gray-50 '>
+        <div className='w-full sm:w-4/5 max-w-[38rem] h-fit  relative overflow-hidden pb-6 text-center text-white '>
           <Slider {...settings}>
             <div className='flex justify-center items-center flex-col h-full'>
-              <h3 className='text-4xl sm:text-6xl'>
+              <h2 className='text-4xl sm:text-6xl'>
                 Assinatura digital
-                <br />
-              </h3>
+              </h2>
               <p className='text-base sm:text-2xl'>
                 Segurança e confiabilidade para sua empresa em transações online
               </p>

@@ -8,8 +8,8 @@ module.exports = {
       gridTemplateRows: {
         layout: 'auto 1fr auto',
       },
-      backgroundImage: {
-        'banner-img': `url(''))`,
+      screens: {
+        md: '800px',
       },
     },
   },

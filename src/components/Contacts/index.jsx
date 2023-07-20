@@ -1,6 +1,5 @@
-import { MdEmail } from 'react-icons/md';
-
-const faleConosco = 'Fale Conosco';
+import { useEffect } from 'react';
+import { MdEmail, MdWhatsapp } from 'react-icons/md';
 
 const number = '5551991640517'; // Número de telefone do WhatsApp
 const messageBomDia = 'Bom dia! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de bom dia
@@ -20,34 +19,50 @@ export function Contacts() {
     message = messageBoaNoite;
   }
 
+  useEffect(() => {
+    const yy =
+      'Nós estamos aqui para por a mão na massa e não deixar que seu sonho volte para o massa e não deixar que seu sonho volte para o massa e não deixar que seu sonho volte para o.';
+    console.log(yy.length);
+  }, []);
+
   return (
     <>
-      <div id='Contatos' className='animate-showing w-full xl:container mx-auto rounded-md bg-slate-900/[.35] py-6 mb-20'>
-        <div className='text-center text-4xl font-bold mb-10'>Contato</div>
-        <div className='flex items-center justify-center gap-20'>
-          <div>
-            <div className='text-3xl font-bold mb-10'>Pensando em dar vida para aquele projeto esquecido?</div>
-            <p>
-              Nós estamos aqui para por a mão na massa e não deixar<br />
-              que seu sonho volte para o esquecimento novamente. <br /> </p>
-            <p>
-              Fale com a gente, vamos fazer o possível para que <br />
-              seu projeto ganhe vida e se torne um sucesso. →
+      <div
+        id='Contatos'
+        className='animate-showing w-full flex flex-col gap-10 xl:container mx-auto rounded-md pt-10 pb-10'
+      >
+        <h2 className='text-center text-4xl font-bold '>Contato</h2>
+        <div className='flex flex-col items-center justify-evenly gap-10  px-3 md:flex-row mb:gap-5'>
+          <div className=' max-w-[33.125rem] w-full flex flex-col gap-8'>
+            <h2 className='text-3xl sm:text-4xl md:text-[2.5rem] text-[hsl(226,57%,5%)] leading-tight lin font-bold'>
+              Transforme Sua Ideia em Realidade!
+            </h2>
+            <p className='text-[1.3rem] leading-snug'>
+              Transforme suas ideias em aplicativos personalizados de sucesso! Contate-nos hoje
+              mesmo e tenha uma equipe dedicada ao seu projeto.
             </p>
           </div>
-          <div className='flex flex-col gap-4 mt-24'>
-            <div className='flex items-center gap-2'>
-              <MdEmail />
-              <p>ekor.solutions@gmail.com</p>
+          <div className='flex flex-row justify-center gap-4 max-w-[33.125rem] w-full'>
+            <div className='flex flex-col gap-4 w-min '>
+              <a
+                className='bg-slate-950/20 whitespace-nowrap rounded-lg text-[1.375rem] flex gap-2 items-center justify-center p-3 hover:transform hover:scale-110 hover:bg-[rgb(78,80,92)] duration-500 text-white'
+                href='mailto:ekor.solutions@gmail.com'
+                title={'fale Conosco pelo e-mail'}
+                target=' _blank'
+              >
+                <MdEmail />
+                Entrar em contato
+              </a>
+              <a
+                className='bg-[hsl(138,78%,25%)] whitespace-nowrap rounded-lg text-[1.375rem] flex gap-2 items-center justify-center p-3 hover:transform hover:scale-110 hover:bg-[hsl(138,58%,19%)] duration-500 text-white'
+                href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
+                title={'fale Conosco pelo Whatsapp'}
+                target=' _blank'
+              >
+                <MdWhatsapp />
+                Entrar em contato
+              </a>
             </div>
-            <a
-              className='bg-[#003A7A] rounded-lg flex items-center justify-center p-3 hover:transform hover:scale-110 hover:bg-[#304FE7] duration-500 text-white mb-5'
-              href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
-              title={faleConosco}
-              target=' _blank'
-            >
-              Entrar em contato
-            </a>
           </div>
         </div>
       </div>

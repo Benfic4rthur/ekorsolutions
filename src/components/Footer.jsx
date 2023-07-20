@@ -26,8 +26,8 @@ if (currentHour >= 0 && currentHour < 12) {
 
 export function Footer() {
   return (
-    <>
-      <footer className='bg-[#003A7A] h-24 w-full flex gap-1 justify-between items-center p-[min(2.5rem_,_3%)]'>
+    <footer className='bg-[#003A7A] w-full flex  justify-center'>
+      <div className='h-24 flex gap-1 justify-between items-center px-[min(3rem_,_3.5%)] w-full xl:container'>
         <div className='flex min-w-[4.25rem] justify-center'>
           <img
             src={logo}
@@ -43,19 +43,22 @@ export function Footer() {
           <a
             href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
             title={faleConosco}
+            className='text-3xl hover:transform hover:scale-125 duration-500'
+            id='whatsapp'
             target=' _blank'
           >
-            <p className='text-3xl hover:transform hover:scale-125 duration-500' id='whatsapp'>
-              <MdWhatsapp />
-            </p>
+            <MdWhatsapp />
           </a>
-          <a href='https://www.instagram.com/ekor.solutions/' title={instagram} target=' _blank'>
-            <p className='text-3xl  hover:scale-125 duration-500'>
-              <LuInstagram />
-            </p>
+          <a
+            href='https://www.instagram.com/ekor.solutions/'
+            title={instagram}
+            target='_blank'
+            className='text-3xl  hover:scale-125 duration-500'
+          >
+            <LuInstagram />
           </a>
         </section>
-      </footer>
-    </>
+      </div>
+    </footer>
   );
 }
