@@ -52,7 +52,7 @@ export function Footer() {
           <a
             href='https://www.instagram.com/ekor.solutions/'
             title={instagram}
-            target='_blank'
+            target=' _blank'
             className='text-3xl  hover:scale-125 duration-500'
           >
             <LuInstagram />

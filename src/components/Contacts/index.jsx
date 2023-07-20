@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { MdEmail, MdWhatsapp } from 'react-icons/md';
 
 const number = '5551991640517'; // Número de telefone do WhatsApp
