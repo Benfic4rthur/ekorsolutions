@@ -11,7 +11,6 @@ import { Card } from './TeamCard/Card';
 import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-
 export function Team() {
   const [showAnimation, setShowAnimation] = useState(false);
   const { ref, inView } = useInView({ triggerOnce: true });
@@ -24,9 +23,19 @@ export function Team() {
 
   return (
     <section className='my-10 w-full xl:container mx-auto px-3'>
-      <h1 className={`text-center font-bold text-4xl ${showAnimation ? 'animate-showing' : ''}`}>Conheça nossa equipe</h1>
-      <div className={`justify-center items-center mb-20 ${showAnimation ? 'animate-sobe' : ''}`} ref={ref}>
-        <div className={`flex mt-10 w-auto flex overflow-x-auto mx-auto gap-3 pb-1 ${showAnimation ? 'animate-sobe' : 'animate-showingReverse'}`} ref={ref}>
+      <h1 className={`text-center font-bold text-4xl ${showAnimation ? 'animate-showing' : ''}`}>
+        Conheça nossa equipe
+      </h1>
+      <div
+        className={`justify-center items-center mb-20 ${showAnimation ? 'animate-sobe' : ''}`}
+        ref={ref}
+      >
+        <div
+          className={`flex mt-10 w-auto flex overflow-x-auto mx-auto gap-3 pb-1 ${
+            showAnimation ? 'animate-sobe' : 'animate-showingReverse'
+          }`}
+          ref={ref}
+        >
           <Card Name={'Arthur Graff'} Subtitle={'FullStack developer'} src={arthur} />
           <Card Name={'joão Lucas'} Subtitle={'back-end developer'} src={joao} />
           <Card Name={'gabriel Duarte'} Subtitle={'front-end developer'} src={gabriel} />
@@ -35,8 +44,14 @@ export function Team() {
           <Card Name={'nilson Lemos'} Subtitle={'Engenharia/Matematica'} src={nilson} />
         </div>
         <div className={`flex lg:hidden ${showAnimation ? 'animate-showing' : ''}`} ref={ref}>
-          <p className={`text-sm pt-[1.35rem] ml-2 ${showAnimation ? 'animate-showing' : ''}`}>Arraste para o lado</p>
-          <Icon path={mdiArrowRightBoldCircle} size={1} className={`mt-5 ml-5 ${showAnimation ? 'animate-bounceX' : ''}`} />
+          <p className={`text-sm pt-[1.35rem] ml-2 ${showAnimation ? 'animate-showing' : ''}`}>
+            Arraste para o lado
+          </p>
+          <Icon
+            path={mdiArrowRightBoldCircle}
+            size={1}
+            className={`mt-5 ml-5 ${showAnimation ? 'animate-bounceX' : ''}`}
+          />
         </div>
       </div>
     </section>
