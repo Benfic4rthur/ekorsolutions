@@ -1,5 +1,5 @@
 import { LuInstagram } from 'react-icons/lu';
-import { MdWhatsapp } from 'react-icons/md';
+import { BsWhatsapp } from 'react-icons/bs';
 import logo from '../../public/icone.png';
 
 const faleConosco = 'Fale Conosco';
@@ -47,7 +47,7 @@ export function Footer() {
             id='whatsapp'
             target=' _blank'
           >
-            <MdWhatsapp />
+            <BsWhatsapp />
           </a>
           <a
             href='https://www.instagram.com/ekor.solutions/'

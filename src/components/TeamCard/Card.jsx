@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 export const Card = ({ src = '', Name, Subtitle }) => (
-  <div className='h-72 w-60 flex-shrink-0 rounded-md bg-slate-900/[.35] py-6 flex gap-4 flex-col items-center'>
+  <div className='h-72 w-[15.1rem] flex-shrink-0 rounded-md bg-slate-900/[.35] py-6 flex gap-4 flex-col items-center'>
     <div className='bg-black/30 h-40 w-40 rounded-full overflow-hidden shadow-md'>
       <img
         className='object-center object-cover	w-full h-full grayscale hover:transform hover:scale-110 duration-500'
