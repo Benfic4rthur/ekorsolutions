@@ -31,7 +31,7 @@ export function Team() {
         ref={ref}
       >
         <div
-          className={`flex mt-10 w-auto flex overflow-x-auto mx-auto gap-3 pb-1 ${
+          className={`flex mt-10 w-auto overflow-x-auto mx-auto gap-3 pb-1 items-center justify-center ${
             showAnimation ? 'animate-sobe' : 'animate-showingReverse'
           }`}
           ref={ref}
