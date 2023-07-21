@@ -1,5 +1,4 @@
-import { LuInstagram } from 'react-icons/lu';
-import { BsWhatsapp } from 'react-icons/bs';
+import { BsWhatsapp, BsInstagram } from 'react-icons/bs';
 import logo from '../../public/icone.png';
 
 const faleConosco = 'Fale Conosco';
@@ -55,7 +54,7 @@ export function Footer() {
             target=' _blank'
             className='text-3xl  hover:scale-125 duration-500'
           >
-            <LuInstagram />
+            <BsInstagram />
           </a>
         </section>
       </div>
