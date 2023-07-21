@@ -55,16 +55,19 @@
 }
 
 @keyframes bounceX {
+
   0%,
   100% {
     transform: translateX(-50%);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
+
   50% {
     transform: none;
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
+
 .animate-bounceX {
   animation: bounceX 1s infinite;
 }
@@ -86,7 +89,7 @@
 }
 
 .animate-showing {
-  animation: showing 0.8s;
+  animation: showing 1.2s;
 }
 
 @keyframes showingReverse {
@@ -106,7 +109,7 @@
 }
 
 .animate-showingReverse {
-  animation: showingReverse 0.8s;
+  animation: showingReverse 1.2s;
 }
 
 @keyframes sobe {
@@ -118,13 +121,15 @@
   50% {
     opacity: 0.4;
   }
+
   100% {
     transform: none;
     opacity: 1;
   }
 }
+
 .animate-sobe {
-  animation: sobe 0.7s;
+  animation: sobe 1.3s;
 }
 
 @keyframes desce {
@@ -136,26 +141,48 @@
   50% {
     opacity: 0.4;
   }
+
   100% {
     transform: none;
     opacity: 1;
   }
 }
-.animate-desce {
-  animation: desce 0.7s;
+
+@keyframes coracao {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
 }
+
+.animate-coracao {
+  animation: coracao 5s infinite;
+}
+
+.animate-desce {
+  animation: desce 1.2s;
+}
+
 @media (max-width: 768px) {
   .tmobile {
     font-size: 1.2rem;
   }
+
   .pmobile {
     font-size: 0;
   }
+
   .flexCenter {
     padding-top: 7rem;
     padding-left: 0.2rem;
   }
-  .tamanhodapica{
+
+  .tamanhodapica {
     width: 210px;
   }
 }

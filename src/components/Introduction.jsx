@@ -3,6 +3,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import banner from '../assets/banner.jpg';
 import iphone from '../assets/iphone.jpg';
+import { useState, useEffect } from 'react';
 
 export function Introduction() {
   const settings = {
@@ -17,11 +18,28 @@ export function Introduction() {
     cssEase: 'linear',
   };
 
+  const [mudaTela, setMudaTela] = useState(window.innerWidth > 768 ? banner : iphone);
+
+
+  useEffect(() => {
+    function handleResize() {
+      setMudaTela(window.innerWidth > 768 ? banner : iphone);
+    }
+
+    window.addEventListener('resize', handleResize);
+
+    // Lembre-se de remover o evento de redimensionamento quando o componente for desmontado.
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
   return (
     <div
       id='init'
       className={`font-normal h-[43rem] bg-center bg-cover lg:w-full text-base text-center mt-10 mb-20 rounded-3xl xl:container mx-auto animate-bounce`}
-      style={{ backgroundImage: `url(${window.innerWidth > 768 ? banner : iphone})` }}
+      style={{ backgroundImage: `url(${mudaTela})` }}
     >
       <div className='flex items-center h-full px-3 justify-center '>
         <div className='h-[18rem] xs:max-w-[13rem] tamanhodapica ml-3 lg:ml-0 lg:mr-1 lg:max-w-[47.35rem] items-center relative overflow-hidden text-center text-white '>

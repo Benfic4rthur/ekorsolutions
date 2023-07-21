@@ -1,15 +1,43 @@
+import { useEffect, useState } from 'react';
 import { MdEmail, MdWhatsapp } from 'react-icons/md';
 
-const number = '5551991640517'; // Número de telefone do WhatsApp
-const messageBomDia = 'Bom dia! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de bom dia
-const messageBoaTarde = 'Boa tarde! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de boa tarde
-const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de boa noite
+const number = '5551991640517';
+const messageBomDia = 'Bom dia! Gostaria de fazer um orçamento em um projeto!';
+const messageBoaTarde = 'Boa tarde! Gostaria de fazer um orçamento em um projeto!';
+const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um projeto!';
 const now = new Date();
 const currentHour = now.getHours();
-export function Contacts() {
-  let message = ''; // Inicialize a mensagem vazia
 
-  // Define a mensagem com base na hora do dia
+export function Contacts() {
+  const [showAnimation, setShowAnimation] = useState(false);
+  const [titulo, setTitulo] = useState('');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const contactsElement = document.querySelector('.contacts');
+      if (contactsElement) {
+        const contactsPosition = contactsElement.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        if (contactsPosition.top < windowHeight) {
+          setShowAnimation(true);
+          setTitulo('- Contato');
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    document.title = `Ekor Solutions ${titulo}`;
+  }, [titulo]);
+
+  let message = '';
   if (currentHour >= 0 && currentHour < 12) {
     message = messageBomDia;
   } else if (currentHour >= 12 && currentHour < 18) {
@@ -17,14 +45,14 @@ export function Contacts() {
   } else {
     message = messageBoaNoite;
   }
-  
+
   return (
     <>
       <div
         id='Contatos'
-        className='animate-showing w-full flex flex-col gap-10 xl:container mx-auto rounded-md pt-10 pb-10'
+        className={`w-full flex flex-col gap-10 xl:container mx-auto rounded-md pt-10 pb-10 contacts ${showAnimation ? 'animate-showing' : ''}`}
       >
-        <h2 className='text-center text-4xl font-bold '>Contato</h2>
+        <h2 className='text-center text-4xl font-bold'>Contato</h2>
         <div className='flex flex-col items-center justify-evenly gap-10  px-3 md:flex-row mb:gap-5'>
           <div className=' max-w-[33.125rem] w-full flex flex-col gap-8'>
             <h2 className='text-3xl sm:text-4xl md:text-[2.5rem] text-[hsl(226,57%,5%)] leading-tight lin font-bold'>
