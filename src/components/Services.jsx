@@ -20,7 +20,7 @@ export function Services() {
             src={sites}
           />
           <Card Name={'Suporte'} Subtitle={'Suporte Terceirizado'} src={suporte} />
-          <Card Name={'Design'} Subtitle={'Projetos de Design'} src={design} />
+          <Card Name={'Design e Registro de Marca'} Subtitle={'Projetos de Design e Registro no INPI'} src={design} />
           <Card Name={'Consultoria'} Subtitle={'Consultoria .Jus e para Devs'} src={consultoria} />
           <Card
             Name={'Certificação'}
