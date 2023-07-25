@@ -12,6 +12,7 @@ export function Products() {
             description='Potencialize seu negócio com nossa plataforma de streaming especializada em treinamentos corporativos, cursos online e aluguel de vídeos sob demanda. Compartilhe conteúdo eficiente de forma envolvente para colaboradores, clientes e estudantes. Descubra recursos personalizáveis e intuitivos que revolucionarão sua maneira de compartilhar conhecimento.'
             title='MediaVerse - Treinamentos Empresariais Multimídia'
             src={mediaverse}
+            link='https://mediaverse.vercel.app/'
           />
           <ProductCardRight
             description='Conheça o nosso aplicativo de petshop! Agende serviços, venda produtos e acompanhe as novidades da sua loja favorita. Gerencie seu petshop de forma eficiente, oferecendo conveniência aos clientes e aumentando as vendas. Simplifique a vida dos amantes de animais. Acesse agora e aproveite!'
