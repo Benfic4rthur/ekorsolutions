@@ -1,7 +1,7 @@
 import certificado from '../assets/certificado.jpg';
 import consultoria from '../assets/consultoria.jpg';
 import design from '../assets/design.jpg';
-import engenharia from '../assets/engenharia.jpg';
+// import engenharia from '../assets/engenharia.jpg';
 import suporte from '../assets/suporte.jpg';
 import sites from '../assets/sites.jpg';
 import { Card } from './ServicesCard/Card';
@@ -27,11 +27,11 @@ export function Services() {
             Subtitle={'Emissão de Certificado Digital'}
             src={certificado}
           />
-          <Card
+          {/* <Card
             Name={'Engenharia'}
             Subtitle={'Engenharia e modelagem matematica'}
             src={engenharia}
-          />
+          /> */}
         </div>
       </div>
       <div className='flex lg:hidden animate-showing'>

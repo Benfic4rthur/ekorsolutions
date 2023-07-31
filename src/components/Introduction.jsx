@@ -83,7 +83,7 @@ export function Introduction() {
                 Segurança e confiabilidade para sua empresa em transações online
               </p>
             </div>
-            <div className='flex justify-center items-center flex-col h-full'>
+            {/* <div className='flex justify-center items-center flex-col h-full'>
               <h3 className='tmobile text-5xl flexCenter'>
                 Engenharia voltada
                 <br />
@@ -93,7 +93,7 @@ export function Introduction() {
                 Projetos de engenharia precisos e baseados em modelagem matemática, garantindo
                 resultados confiáveis e eficientes
               </p>
-            </div>
+            </div> */}
             <div className='flex justify-center items-center flex-col h-full'>
               <h3 className='tmobile text-5xl flexCenter'>
                 Consultoria Especializada

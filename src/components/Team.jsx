@@ -6,7 +6,6 @@ import elias from '../assets/elias.jpg';
 import gabriel from '../assets/gabriel.jpg';
 import joao from '../assets/joao.jpg';
 import natacha from '../assets/natacha.jpg';
-import nilson from '../assets/nilson.jpg';
 import { Card } from './TeamCard/Card';
 import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
@@ -41,7 +40,6 @@ export function Team() {
           <Card Name={'gabriel Duarte'} Subtitle={'front-end developer'} src={gabriel} />
           <Card Name={'elias Rosa'} Subtitle={'QA'} src={elias} />
           <Card Name={'natacha Azevedo'} Subtitle={'Designer/Marketing'} src={natacha} />
-          <Card Name={'nilson Lemos'} Subtitle={'Engenharia/Matematica'} src={nilson} />
         </div>
         <div className={`flex lg:hidden ${showAnimation ? 'animate-showing' : ''}`} ref={ref}>
           <p className={`text-sm pt-[1.35rem] ml-2 ${showAnimation ? 'animate-showing' : ''}`}>
