@@ -26,7 +26,7 @@ export function Team() {
         Conheça nossa equipe
       </h1>
       <div
-        className={`justify-center items-center mb-20 ${showAnimation ? 'animate-sobe' : ''}`}
+        className={`flex justify-center items-center mb-20 ${showAnimation ? 'animate-sobe' : ''}`}
         ref={ref}
       >
         <div
