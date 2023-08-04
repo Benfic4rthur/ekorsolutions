@@ -1,4 +1,5 @@
 import mediaverse from '../assets/mediaverse.mp4';
+import logomediaverse from '../assets/logomediaverse.png';
 import epet from '../assets/epet.jpg';
 import { ProductCardLeft, ProductCardRight } from './ProductCard';
 
@@ -12,6 +13,7 @@ export function Products() {
             description='Potencialize seu negócio com nossa plataforma de streaming especializada em treinamentos corporativos, cursos online e aluguel de vídeos sob demanda. Compartilhe conteúdo eficiente de forma envolvente para colaboradores, clientes e estudantes. Descubra recursos personalizáveis e intuitivos que revolucionarão sua maneira de compartilhar conhecimento.'
             title='MediaVerse - Treinamentos Empresariais Multimídia'
             src={mediaverse}
+            img={logomediaverse}
             link='https://mediaverse.vercel.app/'
           />
           <ProductCardRight
