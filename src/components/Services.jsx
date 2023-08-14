@@ -27,11 +27,6 @@ export function Services() {
             Subtitle={'Emissão de Certificado Digital'}
             src={certificado}
           />
-          {/* <Card
-            Name={'Engenharia'}
-            Subtitle={'Engenharia e modelagem matematica'}
-            src={engenharia}
-          /> */}
         </div>
       </div>
       <div className='flex lg:hidden animate-showing'>
