@@ -1,6 +1,7 @@
 import mediaverse from '../assets/mediaverse.mp4';
 import logomediaverse from '../assets/logomediaverse.png';
-import epet from '../assets/epet.jpg';
+import logomytopacademy from '../assets/logomytopacademy.png';
+import mytopacademy from '../assets/mytopacademy.jpg';
 import { ProductCardLeft, ProductCardRight } from './ProductCard';
 
 export function Products() {
@@ -17,9 +18,11 @@ export function Products() {
             link='https://mediaverse.vercel.app/'
           />
           <ProductCardRight
-            description='Conheça o nosso aplicativo de petshop! Agende serviços, venda produtos e acompanhe as novidades da sua loja favorita. Gerencie seu petshop de forma eficiente, oferecendo conveniência aos clientes e aumentando as vendas. Simplifique a vida dos amantes de animais. Acesse agora e aproveite!'
-            title='E-Pet'
-            src={epet}
+            description='Descubra o poder da educação sob medida com a My TopAcademy! Explore um mundo de conhecimento através de cursos online envolventes e práticos, liderados por especialistas renomados. Aprenda no seu próprio ritmo, alcance suas metas acadêmicas e profissionais, e trilhe o caminho para o sucesso com a My TopAcademy.'
+            title='My TopAcademy - Sua plataforma de Educação Online'
+            src={mytopacademy}
+            img={logomytopacademy}
+            link='https://mytopacademy.com/'
           />
         </div>
       </div>

@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 
 
-export const ProductCard = ({ title, description, src }) => {
+export const ProductCard = ({ title, description, src, link, img }) => {
   const [showAnimation, setShowAnimation] = useState(false);
 
   useEffect(() => {
@@ -39,6 +39,9 @@ export const ProductCard = ({ title, description, src }) => {
       <div className='h-max flex-col gap-3 flex justify-center'>
         <h3 className='text-3xl text-slate-50 pt-2'>{title}</h3>
         <p className='font-medium text-lg text-slate-50'>{description}</p>
+        <a href={link} target=' _blank' style={{ textDecoration: 'none', color: '#fff' }} className='flex items-center'>
+          <img src={img} alt='' style={{ width: '30px' }}/> {'  '} Veja mais...{' '}
+        </a>
       </div>
     </div>
   );
@@ -96,7 +99,7 @@ export const ProductCardLeft = ({ title, description, src, link, img }) => {
   );
 };
 
-export const ProductCardRight = ({ title, description, src }) => {
+export const ProductCardRight = ({ title, description, src , link, img }) => {
   const [showAnimation, setShowAnimation] = useState(false);
 
   useEffect(() => {
@@ -133,6 +136,9 @@ export const ProductCardRight = ({ title, description, src }) => {
       <div className='flex-col gap-3 flex justify-center md:-order-1'>
         <h3 className='text-3xl md:text-4xl text-slate-50'>{title}</h3>
         <p className='font-medium text-base lg:text-lg  text-slate-50'>{description}</p>
+        <a href={link} target=' _blank' style={{ textDecoration: 'none', color: '#fff' , marginTop: '15px' }} className='flex items-center'>
+          <img src={img} alt='' style={{ width: '35px' }}/> {'  '} Veja mais...{' '}
+        </a>
       </div>
     </div>
   );
