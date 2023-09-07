@@ -21,6 +21,7 @@ export function Team() {
     }
   }, [inView]);
 
+  
   return (
     <section className='my-10 w-full xl:container mx-auto px-3'>
       <h1 className={`text-center font-bold text-4xl ${showAnimation ? 'animate-showing' : ''}`}>
