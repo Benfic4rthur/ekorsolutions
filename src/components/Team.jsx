@@ -3,7 +3,7 @@ import Icon from '@mdi/react';
 import { mdiArrowRightBoldCircle } from '@mdi/js';
 
 import arthur from '../assets/arthur.jpg';
-import elias from '../assets/elias.jpg';
+// import elias from '../assets/elias.jpg';
 // import gabriel from '../assets/gabriel.jpg';
 // import joao from '../assets/joao.jpg';
 import natacha from '../assets/natacha.jpg';
@@ -40,7 +40,7 @@ export function Team() {
           <Card Name={'Arthur Graff'} Subtitle={'FullStack developer'} src={arthur} />
           {/* <Card Name={'joão Lucas'} Subtitle={'back-end developer'} src={joao} /> */}
           {/* <Card Name={'gabriel Duarte'} Subtitle={'front-end developer'} src={gabriel} /> */}
-          <Card Name={'elias Rosa'} Subtitle={'QA'} src={elias} />
+          {/* <Card Name={'elias Rosa'} Subtitle={'QA'} src={elias} /> */}
           <a href='https://designer-natacha.com/' target='_blank'>
             <Card Name={'natacha Azevedo'} Subtitle={'Designer/Marketing'} src={natacha} />
           </a>
