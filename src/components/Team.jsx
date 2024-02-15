@@ -41,7 +41,7 @@ export function Team() {
           {/* <Card Name={'joão Lucas'} Subtitle={'back-end developer'} src={joao} /> */}
           {/* <Card Name={'gabriel Duarte'} Subtitle={'front-end developer'} src={gabriel} /> */}
           {/* <Card Name={'elias Rosa'} Subtitle={'QA'} src={elias} /> */}
-          <a href='https://designer-natacha.com/' target='_blank'>
+          <a target='_blank'>
             <Card Name={'natacha Azevedo'} Subtitle={'Designer/Marketing'} src={natacha} />
           </a>
         </div>
