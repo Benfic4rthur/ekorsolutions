@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { MdEmail, MdWhatsapp } from 'react-icons/md';
 
-const number = '5551991640517';
-const messageBomDia =   'Bom dia! Gostaria de fazer um orçamento em um projeto!';
+const number = '00000000000';
+const messageBomDia = 'Bom dia! Gostaria de fazer um orçamento em um projeto!';
 const messageBoaTarde = 'Boa tarde! Gostaria de fazer um orçamento em um projeto!';
 const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um projeto!';
 const now = new Date();
@@ -50,7 +50,9 @@ export function Contacts() {
     <>
       <div
         id='Contatos'
-        className={`w-full flex flex-col gap-10 xl:container mx-auto rounded-md pt-10 pb-10 contacts ${showAnimation ? 'animate-showing' : ''}`}
+        className={`w-full flex flex-col gap-10 xl:container mx-auto rounded-md pt-10 pb-10 contacts ${
+          showAnimation ? 'animate-showing' : ''
+        }`}
       >
         <h2 className='text-center text-4xl font-bold'>Contato</h2>
         <div className='flex flex-col items-center justify-evenly gap-10  px-3 md:flex-row mb:gap-5'>
