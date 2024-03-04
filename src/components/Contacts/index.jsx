@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { MdEmail, MdWhatsapp } from 'react-icons/md';
 
-const number = '00000000000';
+const number = '51991640517';
 const messageBomDia = 'Bom dia! Gostaria de fazer um orçamento em um projeto!';
 const messageBoaTarde = 'Boa tarde! Gostaria de fazer um orçamento em um projeto!';
 const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um projeto!';
