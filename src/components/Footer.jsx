@@ -7,7 +7,7 @@ const instagram = 'Instagram';
 const number = '51991640517'; // Número de telefone do WhatsApp
 const messageBomDia = 'Bom dia! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de bom dia
 const messageBoaTarde = 'Boa tarde! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de boa tarde
-const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um uga uga!'; // Texto pré-pronto para a mensagem de boa noite
+const messageBoaNoite = 'Boa noite! Gostaria de fazer um orçamento em um projeto!'; // Texto pré-pronto para a mensagem de boa noite
 const now = new Date();
 const year = now.getFullYear();
 const currentHour = now.getHours();
@@ -42,7 +42,7 @@ export function Footer() {
           <a
             href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
             title={faleConosco}
-            className='text-3xl hover:transform hover:scale-125 duration-500 text-center' // Adicione a classe text-center aqui
+            className='text-3xl hover:transform hover:scale-125 duration-500'
             id='whatsapp'
             target=' _blank'
           >
