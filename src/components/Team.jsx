@@ -21,7 +21,6 @@ export function Team() {
     }
   }, [inView]);
 
-  
   return (
     <section className='my-10 w-full xl:container mx-auto px-3'>
       <h1 className={`text-center font-bold text-4xl ${showAnimation ? 'animate-showing' : ''}`}>
@@ -41,7 +40,7 @@ export function Team() {
           {/* <Card Name={'joão Lucas'} Subtitle={'back-end developer'} src={joao} /> */}
           {/* <Card Name={'gabriel Duarte'} Subtitle={'front-end developer'} src={gabriel} /> */}
           {/* <Card Name={'elias Rosa'} Subtitle={'QA'} src={elias} /> */}
-          <a target='_blank'>
+          <a href='https://designer-natacha.com/' target='_blank' className='cursor-pointer'>
             <Card Name={'natacha Azevedo'} Subtitle={'Designer/Marketing'} src={natacha} />
           </a>
         </div>
