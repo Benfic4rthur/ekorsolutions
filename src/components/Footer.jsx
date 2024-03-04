@@ -42,7 +42,7 @@ export function Footer() {
           <a
             href={`https://wa.me/${number}?text=${encodeURIComponent(message)}`}
             title={faleConosco}
-            className='text-3xl hover:transform hover:scale-125 duration-500'
+            className='text-3xl hover:transform hover:scale-125 duration-500 text-center' // Adicione a classe text-center aqui
             id='whatsapp'
             target=' _blank'
           >
